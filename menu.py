@@ -23,21 +23,8 @@ def verNum():
         except ValueError:
             print("Debe de escribir un número")
 
-#def suma(res):
-#    x = verNum()
-#    string = f"({string} + {x})"             
-#    print(string, "=")
-#    res = res + x
-#    print(res)
-#    return string
-
-        
-
-#x = input("Escriba un número: ")
-#        if x.isdigit():
-#            return int(x)
-#        else:
-#            print("Debe de escribir un número")
+def pasoAtras(string, res):
+    return True
 
 while salir == False:
 
